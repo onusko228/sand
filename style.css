@@ -142,86 +142,86 @@
   width: 283px;
   height: 67px;
 }
-
 .school {
   background-color: black;
   font-family: "Gilroy";
 }
-.school_inner{
+.school_inner {
   padding-top: 110px;
 }
 .school_title {
-  width: 100%;
-  height: 100%;
+  position: relative;
   border-radius: 14px;
   margin-bottom: 45px;
-  position:relative;
-  z-index:1;
+  font-size: 64px;
+  line-height: 76px;
+  z-index: 1;
 }
-.school_title::before{
-  content:"";
+.school_title::before {
+  content: "";
   position: absolute;
-  top:-10;
-  left: -50px;;
-  width:1000px;
-  height:175px;
-  background: linear-gradient(94.4deg, rgba(44, 35, 31, 0.68) 4.85%, rgba(203, 156, 104, 0.68) 95.02%);
+  top: -10px;
+  left: -50px;
+  width: 999px;
+  height: 175px;
+  background: linear-gradient(
+    94.4deg,
+    rgba(44, 35, 31, 0.68) 4.85%,
+    rgba(203, 156, 104, 0.68) 95.02%
+  );
   opacity: 0.68;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(28px);
   border-radius: 14px 0px 0px 14px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
-  z-index:-1;
+  z-index: -1;
 }
 .school_title_text {
   color: white;
   text-transform: uppercase;
 }
 .school_title_text_this {
-  margin-left: 249px;
+  margin-left: 110px;
   color: white;
-  margin-left:110px;
 }
 .school_title_span {
   color: #cb9c68;
 }
-.school__cards{
-  display:grid;
-  grid-template-columns:repeat(2,1fr);
-  gap:40px;
-  
+.school__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
 }
-.school__cards-item{
-  color:#fff;
-  background-color:#362b27;
-  border-radius:16px;
-  padding:88px 40px 20px 25px;
-  list-style:none;
-  font-weight:600;
+.school__cards-item {
+  color: #fff;
+  background-color: #362b27;
+  border-radius: 16px;
+  padding: 88px 40px 20px 25px;
+  list-style: none;
+  font-weight: 600;
   font-size: 20px;
-  line-height:148%;
-  letter-spacing:0.02em;
-  position:relative;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  position: relative;
 }
-.school__cards-item::before{
-  content:"";
-  position:absolute;
-  left:20px;
-  top:15px;
-  height:64px;
+.school__cards-item::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  height: 64px;
   width: 64px;
   background-repeat: no-repeat;
-  background-image: url(/img/icons/book.svg);
 }
-.school__cards-item--book::before{
-  background-image: url(/img/icons/book.svg);
+.school__cards--book::before {
+  background-image: url(./images/icons/book.svg);
 }
-.school__cards-item--man::before{
-  background-image: url(/img/icons/man.svg);
+.school__cards--man::before {
+  background-image: url(./images/icons/man.svg);
 }
-.school__cards-item--pencilhead::before{
-  background-image: url(/img/icons/pencilhead.svg);
+.school__cards--pencilhead::before {
+  background-image: url(./images/icons/pencilhead.svg);
 }
-.school__cards-item--worldstar::before{
-  background-image: url(/img/icons/worldsmile.svg);
+.school__cards--worldstar::before {
+  background-image: url(./images/icons/worldsmile.svg);
 }
