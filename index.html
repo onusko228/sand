@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href=".normalize.css" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./styles.css" />
     <title>Document</title>
   </head>
   <body>
-    <section class="hero" style="background-image: url('./images/bg.jpg')">
+    <section class="hero" style="background-image: url(./images/bg.jpg)">
       <div class="hero__wraper">
         <div class="container">
           <nav class="header">
             <a href="/" class="logo"
-              ><img src="./images/logo.png" alt="logo" class="img"
+              ><img src="/images/icons/logotype.svg" alt="logo" class="img"
             /></a>
 
             <div class="hero__navigate">
@@ -83,19 +83,28 @@
             <li class="school__cards-item school__cards--pencilhead">Для тех, кто мыслит нестандартно и ищет необычные техники рисования</li>
             <li class="school__cards-item school__cards--worldstar">Для тех, кто мечтает выступать на сцене с мировыми звёздами</li>
           </ul>
+          </div>
         </div>
       </div>
     </section>
     <section class="courses">
       <div class="container">
-        <div class="courses__content">
-          <h2 class="courses__text"></h2>
-          <p class="courses__text-2"></p> 
-          <a href="" class="courses__button"></a>         
+        <div class="courses__wrapper">
+          <div class="courses__start">
+            <h3 class="courses__left-text">
+              посмотрите, что будет на обучении
+              <span></span>
+            </h3>
+            <p class="courses__sub-text">Начните обучение прямо сегодня</p>
+            <a class="courses__link" href="#">Начать</a>
+          </div>
+          <div class="courses__end">
+            <p class="courses__end-text">ВИДЕО С ЗАПИСЬЮ КУРСА ИЗНУТРИ</p>
+          </div>
         </div>
-        <div class="courses-content"></div>
       </div>
     </section>
+
     <section class="benefits"></section>
     <section class="knowleges"></section>
     <section class="mentors"></section>

@@ -2,6 +2,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+ul {
+  margin: 0;
+  padding: 0;
+}
 .hero {
   height: 100vh;
   position: relative;
@@ -148,6 +152,7 @@
 }
 .school_inner {
   padding-top: 110px;
+  margin-bottom: 95px;
 }
 .school_title {
   position: relative;
@@ -224,4 +229,11 @@
 }
 .school__cards--worldstar::before {
   background-image: url(./images/icons/worldsmile.svg);
+}
+
+.courses {
+  background-color: #8f6f4e;
+  color: #fff;
+}
+.courses__wrapper {
 }
