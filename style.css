@@ -412,3 +412,140 @@ ul {
   text-align: center;
   line-height: 32px;
 }
+.mentors__title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 76px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.mentors__title-text {
+  padding-left: 100px;
+}
+.mentors__title-text {
+  color: #cb9c68;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 76px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.mentors__cards {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.mentors__article {
+  width: 360px;
+  min-height: 485px;
+  height: 100%;
+  background-color: #362b27;
+  padding: 30px 15px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+.mentors__inner {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.mentors__name {
+  margin-bottom: 10px;
+}
+.mentors__button {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #cb9c68;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #000;
+  padding: 20px 55px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  margin-bottom: 120px;
+}
+.chart {
+  background-color: #8f6f4e;
+  padding: 70px 0;
+}
+.chart__inner {
+  display: flex;
+  justify-content: space-around;
+}
+.chart__text {
+  max-width: 580px;
+  width: 100%;
+}
+.chart__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.chart__description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+.chart__lessons {
+  display: flex;
+}
+.chart__lessons-text {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+.chart__lessons-chart {
+  height: 100px;
+  align-content: flex-end;
+  border-top: 6px solid #cb9c68;
+  background-color: #000;
+}
+.chart__lessons-procent {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #cb9c68;
+}
+.chart__feedback {
+  display: flex;
+}
+.chart__feedback-text {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+.chart__feedback-chart {
+  height: 155px;
+  align-content: flex-end;
+  border-top: 6px solid #cb9c68;
+  background-color: #000;
+}
+.chart__feedback-procent {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #cb9c68;
+}
+.chart__personal {
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 43px;
+  color: rgba(255, 255, 255, 0.84);
+}
